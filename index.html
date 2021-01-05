@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <card>
+        <name></name>
+        </br>
+        <description></description>
+        </br>
+        <blessing-type></blessing-type>
+        </br>
+        <stats>
+            <i class="em em-trophy" aria-role="presentation" aria-label="TROPHY"></i>
+            <progress id="competitions" value="0" min="0" max="5"></progress>
+            </br>
+            <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+            <progress id="love" value="0" min="0" max="5"></progress>
+            </br>
+            <i class="em em-pill" aria-role="presentation" aria-label="PILL"></i>
+            <progress id="health" value="0" min="0" max="5"></progress>
+            </br>
+            <i class="em em-books" aria-role="presentation" aria-label="BOOKS"></i>
+            <progress id="studies" value="0" min="0" max="5"></progress>
+            </br>
+            <i class="em em-moneybag" aria-role="presentation" aria-label="MONEY BAG"></i>
+            <progress id="money" value="0" min="0" max="5"></progress>
+        </stats>
+        </br>
+        </br>
+        <lucky-item></lucky-item>
+    </card>
+
+    <button onclick="generate(); w3.show('card')">Generate card</button>
+
+    <script src="data.js" defer></script>
+    <script src="s.js" defer></script>
+</body>
+
+</html>

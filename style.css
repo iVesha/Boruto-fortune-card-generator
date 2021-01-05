@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    padding: 10%;
+    border-style: solid !important;
+    border-color: black !important;
+    border-width: 3px !important;
+    border-radius: 10px !important;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 3px;
+}
+
+name,
+description,
+blessing-type,
+competitions,
+love,
+health,
+studies,
+money,
+lucky-item {
+    display: block;
+}
+
+card {
+    display: none;
+}
